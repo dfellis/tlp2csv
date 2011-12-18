@@ -1,7 +1,7 @@
 {
 	"name": "tlp2csv",
 	"description": "A 2csv plugin for the Barth Electronics TLP file format",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"homepage": "https://github.com/csvplot/tlp2csv",
 	"repository": {
 		"type": "git",
@@ -11,6 +11,7 @@
 	"author": "David Ellis <d.f.ellis@ieee.org> (http://dfellis.posterous.com)",
 	"main": "lib/tlp2csv.js",
 	"dependencies": {
+		"2csv": "*"
 	},
 	"devDependencies": {
 		"expresso": ">=0.8.1"
@@ -21,6 +22,7 @@
 	"preferGlobal": true,
 	"scripts": {
 		"test": "expresso test/test.js",
-		"postinstall": "2csv-register -e tlp -n tlp2csv"
+		"postinstall": "2csv-register -e tlp -n tlp2csv",
+		"preuninstall": "2csv-register -rn tlp2csv"
 	}
 }

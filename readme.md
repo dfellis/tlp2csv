@@ -3,7 +3,11 @@ for the [Barth Electronics](www.barthelectronics.com) TLP file format
 
 ## Install
 
-Coming soon!
+    npm install -g tlp2csv
+
+## Usage
+
+    2csv filename.tlp // Produces filename.tlp.csv
 
 ## License (MIT)
 
