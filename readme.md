@@ -1,5 +1,5 @@
-# The ``tlp2csv`` [2csv](http://github.com/csvplot/2csv) plugin
-for the [Barth Electronics](www.barthelectronics.com) TLP file format
+# The tlp2csv [2csv](http://github.com/csvplot/2csv) plugin
+for the [Barth Electronics](http://www.barthelectronics.com) TLP file format
 
 ## Install
 
